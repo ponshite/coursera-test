@@ -1,0 +1,34 @@
+HTML Content Models
+
+Content models refers to the default behavior the browser applies to the elements
+belonging to that content model and the nesting rules of those elements.
+
+Prior to HTML5, html elements were either block  level or inline elements.
+HTML5 splits these two content models into seven models.
+
+
+Block-Level Elements.
+Render to begin on a new line (by default, can be changed via CSS)
+May contain inline or other block-level elements within them.
+HTML 5 -> Flow Content
+Most generic <div>
+
+Inline Elements
+Render on the same line (by default)
+May only contain other inline elements.
+HTML 5 -> Phrasing Content
+Most generic <span>
+
+
+HTML 5 replaces the definitions with 7 models.. why do we still care?
+Those models remain pretty practical because they align well with existing
+CSS rules
+
+
+HTML 5 Contents:
+https://www.w3.org/TR/html5/dom.html#kinds-of-content
+
+
+Summary:
+Block level vs inline elements.
+Still used for the main ideas.
