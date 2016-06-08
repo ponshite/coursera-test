@@ -1,0 +1,28 @@
+3 Big Technologies.
+
+HTML, CSS and Javascript
+
+What is HTML?!
+  HyperText Markup Language.
+
+HyperText is text that contains links to another text.
+You can think of the web as a big net of documents/text.
+Right now, it is not scoped to text only, but to media too.
+
+Markup
+It means annotating content. For example the content can be "Why I love this Course"
+This content can be annotated via a Markup language.
+This markup is normally consumed by machines.
+
+HTML is human readable
+
+
+Language.
+Means it should follow an structure. Contains its own semantics and syntax.
+
+
+Technologies That drive the Web
+
+HTML: Structure. Components
+CSS: Style. Colors
+Javascript: Behavior. Functionality.
