@@ -1,0 +1,67 @@
+Should begin with
+<!doctype html> (lower or uppercase)
+
+This tells the browser that it should render HTML
+
+
+In the past, the declaration was pretty complicated.
+A lot of pages were not compliant to the standard.
+Old pages used this declaration to tell the browsers that they were not compliant.
+Not compliant pages were render in the 'quirks' mode.
+
+What you need to know... Don't leave out the doctype declaration.. otherwise
+browser will render in 'quirk mode'
+
+HTML tag:
+<html>
+</html>
+This contains all the html document.
+
+Head tag:
+<head>
+</head>
+
+Contains mostly metadata about the main content. Most common, title,
+charset, etc. It is always a good idea to include the charset. The most common one is
+"utf-8"
+The title tag is required, otherwise html would be invalid.
+
+<head>
+  <meta charset="utf-8">
+  <title> My Title </title>
+</head>
+
+
+Body tag:
+<body>
+</body>
+Content goes here.
+
+
+A bare minimum HTML document is the following:
+""""""
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Coursera is Cool!</title>
+</head>
+  <body>
+    Coursera is so COOL! I am learning SO much!
+  </body>
+</html>
+
+
+""""""
+
+
+We can use the validator to check the HTML!
+
+One final note:
+A browser interpret the html tags from top to bottom!
+
+Summary:
+-> Use html version declaration.
+-> Basic tags <html> - <head> - <title> - <meta> - <body>
+-> Browsers render top to bottom
