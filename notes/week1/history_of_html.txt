@@ -1,0 +1,34 @@
+Relevant History of HTML
+
+History is relevant to understand the current state of HTML.
+
+Before 1997, there wasn't a technology standard. Browsers pretty much could do
+everything they wanted. Invent tags, etc. Pages worked only with one browser.
+It was the wild wild west.
+
+In 1997, the World Wide Web Consortium developed the first Standard.
+HTML 4.0 & 4.01
+The standard was pretty loose, so around 2000, the consortium developed
+XHTML 1.0 using a more rigid standard.
+The Consortium was trying to push for XHTML 2.0 however, the browsers vendors thought
+they were moving too slowly and didn't like the direction of the standard, so they created
+another group.
+WHATWG (Web Hypertext Application Technology Group) (2004)
+Much less democratic... One editor to make the final decision.
+This group is the one driving HTML
+In 2007 both organization decided to start working together.
+In 2011 they developed the HTML 5 standard.
+This is the current standard.
+
+What matters?
+Two organizations.
+W3C standard (HTML 5)
+WHATWG (HTML evolving)
+
+
+Nowadays, browsers update automatically.
+https://www.w3.org/ -> Academic
+https://whatwg.org/ -> WHATWG
+http://caniuse.com/ -> What is currently supported in the browsers.
+https://validator.w3.org/ -> Validate HTML.
+http://www.w3schools.com/browsers/browsers_stats.asp -> Browsers statistics.
