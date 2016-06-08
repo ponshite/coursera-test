@@ -32,3 +32,10 @@ https://whatwg.org/ -> WHATWG
 http://caniuse.com/ -> What is currently supported in the browsers.
 https://validator.w3.org/ -> Validate HTML.
 http://www.w3schools.com/browsers/browsers_stats.asp -> Browsers statistics.
+
+
+Summary:
+History of HTML and how it affects developers.
+Resources for validation.
+Resources for feature investigation
+Browsers Statistics.
