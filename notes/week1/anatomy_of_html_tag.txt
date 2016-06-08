@@ -1,0 +1,40 @@
+Anatomy of an HTML tag
+
+<p> Content </p>
+<p> Opening Tag
+</p> Closing Tag
+
+p -> Element
+
+Element and tags are terms used interchangeably.
+
+
+Not every element have a closing tag
+Example:
+<br>
+
+An element can have attributes, which are key value pairs.
+<p id="myId"> </p>
+Attribute id
+Value myId
+
+No space is allowed after the opening bracket
+< p ---> Not allowed
+<   /p ---> Not allowed.
+
+Attributes can only be specified on the opening tag.
+
+Even though it is not necessary to add quotes to the value of an attribute,
+it is a good practice to use quotes ("") Example:
+<p id="myId">
+
+Self closing tag:
+<p/> This was allowed in XHTML, however it is not allowed in HTML 5!
+Lack of content should be noted with <p></p> and not <p/> !
+
+
+Summary:
+Opening and closing tag.
+Elements can have key value pairs (attributes)
+Use double quotes to identify values.
+How to specify a tag with out content
