@@ -1,0 +1,48 @@
+Creating links.
+
+Links create the web as it is.
+The way to create a link is using the anchor element
+<a> and providing a value for the key "href"
+
+<a href="same-directory.html"> Link to a file to the same directory. </a>
+
+It is always a good idea to add the title attribute too.
+Title is used by screen readers to help visualize impair people.
+<a href="same-directory.html" title="my title"> Link </a>
+
+<a> will be used as inline.. even though the <a> is not inline.
+<a> is actually inline and block level.
+
+You can include a <div> inside the <a> to create a new line.
+<a href="dir">
+  <div> Link!
+  </div>
+</a>
+
+
+External links:
+<a href="http://www.facebook.com" title="Facebook page" target="_blank">
+ Link to fb
+</a>
+
+Normally used with "http" and target="_blank" (This will open a new tab)
+
+Fragment identifier link:
+Provide the ability to link to content of the same page.
+<ul>
+<li> <a href="#section1"> #Section1 <a> </li>
+</ul>
+
+<section id="section1">
+  Will be directed here.
+</section>
+
+Another way without using ids:
+<a name="section6"> Section 6 </a>
+
+Identifiers are also used within SPA or Single Page Applications.
+
+Summary:
+Internal linking to other pages in the site.
+External linking to other web pages
+Linking to sections of a single document.
