@@ -1,0 +1,24 @@
+Displaying images
+
+You can use the tag img
+<img src="image/location">
+
+It is always a good idea to limit the width and height, as well
+as the alt attribute.
+<img src="image/location" width="400" height="235" alt="super awesome!">
+
+img is an inline element.
+
+Using the width and height tells the browser to reserve the space
+for your image, even if the img is not fully loaded.
+
+You can simulate internet being slow in Chrome using
+Developer Tools, and then going to the network tab and selecting
+throttling.
+
+Also, if your image doesn't load for any reason, your layout will
+be messed up.
+
+Summary
+Images can enhance your websites
+Always a good idea to add width and height to images
