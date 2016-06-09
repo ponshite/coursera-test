@@ -8,7 +8,7 @@ This element tell us some meaning to the content.
 *Human and/or machine can understand meaning of content
 surrounded by a semantic element better.
 
- * "May" help search engine ranking. SEO. (Search engine optimization)
+ *"May" help search engine ranking. SEO. (Search engine optimization)
 
 Relevant heading elements.
 <h*></h*>
@@ -47,5 +47,4 @@ Summary:
 H1 Element is crucial for SEO.
 HTML5 Semantic elements allow for a more meaningful expression of the
 structure of the HTML page. Don't give us more functionality
-than a regular
-div or span
+than a regular div or span.

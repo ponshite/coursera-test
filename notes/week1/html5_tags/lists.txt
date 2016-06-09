@@ -1,0 +1,37 @@
+Lists:
+Used to group related content.
+
+<ul> Unorder list.
+<li> List item.
+
+
+My list
+<ul>
+  <li> Element 1 </li>
+  <li> Element 2 </li>
+</ul>
+
+You can have nested lists.
+
+
+My typical dinner shopping list:
+<ul>
+  <li>Milk</li>
+  <li>Donuts</li>
+  <li>Cookies
+    <ul>
+      <li>Chocolate</li>
+      <li>Sugar</li>
+      <li>Peanut Butter</li>
+    </ul>
+  </li>
+  <li>Pepto Bismol</li>
+</ul>
+
+
+You can also use <ol> to represent an Ordered List.
+
+Summary:
+List provide a natural and commonly used grouping of content.
+Very often, lists are used for structuring navigation portions of the web
+page
