@@ -1,0 +1,51 @@
+What is the word semantic?!
+Related to meaning in language or logic.
+
+Semantic HTML element?
+Element that implies some meaning to the content.
+This element tell us some meaning to the content.
+
+*Human and/or machine can understand meaning of content
+surrounded by a semantic element better.
+
+ * "May" help search engine ranking. SEO. (Search engine optimization)
+
+Relevant heading elements.
+<h*></h*>
+
+
+Heading elements should not be used for styling.
+They should used just for its meaning.
+
+
+<h1> It is the most important heading in the document.
+
+Everyone agrees that h1 is the most important and should contain the
+wording that address the main topic of the document.
+
+HTML5 Semantic Elements.
+<header> Contain header information, like company logo or navigation.
+
+<nav> Used within header, contain navigation content only.
+
+<section> Defines a section in a document.
+
+<article> Mostly inside a section element. Independent, self-contained content.
+
+<aside> May be relevant to the page, but not necessary related to the
+main content
+
+<footer> Footer information ..
+
+All of the previous are block-level elements.
+
+Why not use div instead?
+Semantic elements make the code easier to read.
+Meaning is powerful.
+
+Summary:
+H1 Element is crucial for SEO.
+HTML5 Semantic elements allow for a more meaningful expression of the
+structure of the HTML page. Don't give us more functionality
+than a regular
+div or span
