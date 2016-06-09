@@ -1,0 +1,41 @@
+Entity References.
+
+HTML uses some characters for its language.
+Need to escape characters to avoid rendering issues.
+
+3 Characters you should always escape:
+ <  &lt;
+ >  &gt;
+ &  &amp;
+
+Example
+<h1> Don't be afraid to be &lt; 100% <h1>
+
+
+Non breaking space
+Reference: &nbsp;
+The non breaking space will bound words together.
+
+Example
+victory&nbsp;&nor&nbsp;defeat
+
+
+Note:
+HTML ignores extra spaces. Some people use non breaking spaces to add
+extra spaces, however this is not the way to use it.
+Instead, you should use an span element and add some margin.
+
+Another use of html entity references is that they provide the ability
+to use characters not available in the keyboard, for example, the copyright
+symbol:
+
+©  &copy;
+
+There are some other references for characters that are not included
+in all the character sets.
+For example the character " &quot;
+
+Summary
+HTML character entities references avoid rendering issues.
+Safeguard against more limited character encoding
+Provide characters not available on a keyboard
