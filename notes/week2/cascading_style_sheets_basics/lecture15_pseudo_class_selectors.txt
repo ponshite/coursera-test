@@ -1,0 +1,49 @@
+Pseudo-class Selectors.
+
+Target elements that cannot be targeted with simple class selectors or
+target elements that are related to user interaction with the page.
+
+For example:
+Change element if user hovers over an element.
+
+
+Pseudo classes are targeted via
+selector:pseudo-class {
+
+}
+
+
+There are many pseudo class selectors, but will only focus on 5.
+
+Targeting links states:
+Link and visited states
+a:link, a:visited {
+  text-decoration:none;
+}
+
+
+Hover : When user hover an element.
+Active: User click but haven't released.
+
+a:hover, a:active {
+
+}
+
+
+Select the third child of a li element.
+li:nth-child(3) {
+
+}
+
+Select odd children numbers
+section div:nth-child(odd) {
+
+}
+
+Select hover style on the fourth child of a div and section.
+section div:nth-child(4):hover { }
+
+
+Summary:
+  Pseudo-class selectors are very powerful
+  Make sure your selector is still readable. (Simple is better than complex)
