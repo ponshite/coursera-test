@@ -1,0 +1,64 @@
+Class, Id and Elements selectors.
+
+Selectors allows to target a part of the html and apply CSS rules to them.
+The browser uses its selector API to target the selector.
+
+Crafting selectors is a great skill to have, since it is not only used by CSS
+but Javascript also.
+
+Element Selector.
+Will target any element with that name.
+Example:
+
+p {
+  color:blue;
+}
+
+will target:
+
+<p> This will be blue </p>
+<p> This will also be blue </p>
+Not blue!
+
+
+Class selector.
+HTML allows to classify every single element into any number of classes.
+In order to add a class to an HTML element we use the class attribute.
+Example
+
+<p class="target"> Will match </p>
+<p> Will not match <p>
+<p class="target target2"> Will have color blue and Huge Font</p>
+
+Now, we can use a CSS rule, we use a "." to represent a class
+
+.target {
+  color: blue;
+}
+
+target2 {
+  font-size:40px;
+}
+
+
+Id selector.
+Ids also allow us to classify a an element in the HTML document, however
+they are most restrictive. In contrast to classes, elements can only have
+one id, and also, each document can only have one element with that id.
+You specify an id using the id attribute.
+
+<p id="unique"> This is some remarkable content </p>
+<p> ... </p>
+
+
+You can select an id using #
+#unique {
+  font-size:100px;
+}
+
+
+You can also group selectors for example to target p and h1 elements you can use
+
+p, h1 {
+  color:blue;
+}
