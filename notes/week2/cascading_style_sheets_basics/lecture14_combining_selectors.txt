@@ -1,0 +1,94 @@
+Combining Selectors
+
+Element with class selector:
+
+Elements p with class="big"
+p.big {
+
+}
+
+<p class="big"> ... BIG .. </p>
+<div class="big"> Not big </div>
+
+
+Child Selector
+A selector followed by > and then another selector
+article > p {
+
+}
+
+P elements that are DIRECT children from article.
+
+<article>
+  <p> .. Selected.. </p>
+</article>
+
+<p> Unaffected </p>
+<article>
+  <div>
+    <p> Unaffected </p>
+  </div>
+</article>
+
+
+Descendant Selector
+Will apply to direct children of another selector
+
+article p {
+
+}
+
+Every p element that is descendant of article
+<article>
+  <p> .. Affected.. </p>
+</article>
+
+<p> Unaffected </p>
+<article>
+  <div>
+    <p> Affected </p>
+  </div>
+</article>
+
+
+The previous selectors are not limited to element selectors.
+Example:
+.colored p {
+
+}
+Every p element inside an element with class="colored"
+
+
+article > .colored {
+
+}
+
+Any element with class="colored" that is a Direct child of an article element.
+
+
+More examples/exercises:
+
+all elements with class highlight
+.highlight { }
+
+all p elements with class highlight
+p.highlight {}
+
+all elements with class highlight as well as class mainpoint
+.mainpoint.highlight { }
+
+any article element who is a direct child from section
+section > article
+
+any h2 which is a direct child from section
+section > h2
+
+all li elements that are inside a section element
+section li { }
+
+
+Summary:
+Combining selectors:
+  -> Element with class selector (selector.class)
+  -> Child selector (selector > selector)
+  -> Descendant selector (selector selector)
