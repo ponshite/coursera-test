@@ -1,0 +1,55 @@
+CSS Rule.
+p {
+  color:blue;
+}
+
+Consists of a selector. In the previous case, this is "p"
+The selector there is any number of CSS declarations.
+CSS declarations are key value pairs, properties and values, example
+color:blue;
+
+Another example:
+
+p {
+  color:blue;
+  font-size:20px;
+  width: 200px;
+}
+
+
+A collection of CSS rules is called an style sheet.
+
+CSS can be added to an HTML document with the <style> tag inside
+the head element.
+
+Example
+.
+.
+.
+<head>
+....
+  <style>
+    h1 {
+      color:green;
+      font-size:36px;
+      text-align:center;
+    }
+  </style>
+...
+</head>
+<body>
+....
+  <h1> I want this with some style! <h1>
+....
+</body>
+...
+
+
+Every browser come with default styles to some elements. For example.. h1 or h2
+will contain some default style.
+Most of the time, you should overwrite the default values.
+
+
+Summary:
+ -> Syntax of a CSS Rule
+ -> Style sheet
