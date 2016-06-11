@@ -1,0 +1,77 @@
+Style Placement:
+Style placement is concerned about how reusable your styles are.. and how
+which style the browser will apply.
+
+Style Placement, from most reusable to least reusable.
+External file.
+The most common place to specify is in an external CSS file.
+We do this by using the link element in the head of the HTML document.
+We need to use the attribute ref="stylesheet", and href="file to apply"
+This is very reusable and it is the recommended way to apply an Style because
+every document can share the same style and changing the style across the whole
+web page is very easy.
+
+
+<head>
+  <link ref="stylesheet", href="style.css">
+</head>
+
+where style.css
+
+p {
+  color:black;
+}
+
+
+In the same HTML document.
+
+You can also specify your styling in the same HTML doc directly, without the need
+to provide an external file.
+You specify an style with the "style" element and it should this element,
+should be placed inside the head element.
+
+<head>
+  <style>
+      p {
+        color:red;
+      }
+  </style>
+</head>
+
+In this case, the style can be shared only within the same HTML doc.
+Moreover, if there is any CSS rule style conflict between any external files
+and the same document, the rules in the same document will be preferred.
+
+Example:
+<head>
+  <link ref="stylesheet", href="style.css">
+  <style>
+      p {
+        color:red;
+      }
+  </style>
+</head>
+
+where style.css
+
+p {
+  color:black;
+}
+
+In the previous example, all the p elements will have color red instead of
+black.
+
+
+The least reusable way to style an element is through using the attribute style
+in the HTML element itself. This is known as inline styling
+Example
+<p style="color:blue;">..<p>
+
+This is the least reusable way  but if there is any conflict between styles,
+this one will be preferred.
+This is only a good idea for quick testing
+
+Summary:
+Placing styles inline is great for quick testing.
+Real sites styles almost always use external sites.
+Head styles are usually there to override external ones.
