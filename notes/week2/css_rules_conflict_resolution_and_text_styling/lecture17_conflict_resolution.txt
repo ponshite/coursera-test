@@ -20,3 +20,47 @@ body {
   color:red;
   font-family: Helvetica;
 }
+
+
+Specificity.
+Most specific selector wins.
+
+Scoring specificity.
+style id  class,pseudo-class  #elements
+
+
+<h2 style="color : green;">
+
+style id  class,pseudo-class  #elements
+1      0       0                  0
+
+
+div p { color: green; }
+style id  class,pseudo-class  #elements
+0     0       0                   2
+
+
+div #myParag { color: blue; }
+style id  class,pseudo-class  #elements
+0     1       0                 1
+
+
+
+
+vs
+div.big p { color:green }
+style id  class,pseudo-class  #elements
+0     0       1                 2
+
+
+You can overwrite a css rule,
+p {
+ color: green !important;
+ }
+!important will overwrite everything, regarding if there is another rule
+with higher specificity.
+
+Summary:
+Cascade: origin, merge, inheritance & specificity.
+Provide precise control over targeting content while allowing maximum re-use
+of style across your website.

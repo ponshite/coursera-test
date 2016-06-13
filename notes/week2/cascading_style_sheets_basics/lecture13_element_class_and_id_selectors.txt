@@ -36,7 +36,7 @@ Now, we can use a CSS rule, we use a "." to represent a class
   color: blue;
 }
 
-target2 {
+.target2 {
   font-size:40px;
 }
 
