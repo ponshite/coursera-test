@@ -1,0 +1,12 @@
+Most of the UIs made today are done using floating elements.
+
+When you float an element, the browser takes it out of the regular flow.
+When it comes to floated elements, the margin never collapses.
+
+clear: left /* Announces, "nothing should be floating on my left"
+
+You can also say clear:both to ensure it is clear, no matter which side
+is taller.
+
+When an element cannot fit into the line, it will be pushed
+to another line
