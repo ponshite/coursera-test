@@ -1,0 +1,22 @@
+The cascading algorithm is key to understand which declaring will be applied
+to any given element and how conflicts are handled.
+
+Origin Precedence.
+When the same property on the same target the last declaration wins.
+HTML is processed sequentially, the lower on the page, the more precedence
+they have.
+External css is declared in the place they are linked.
+
+When there is conflict, for example there are two rules for the same
+element, but they provide different key-value pairs attributes, they
+simple merge.
+
+Inheritance.
+A property defined on a parent element will be applied to all the
+children of that element.
+
+For example.. lets specify an style for the whole body.
+body {
+  color:red;
+  font-family: Helvetica;
+}
