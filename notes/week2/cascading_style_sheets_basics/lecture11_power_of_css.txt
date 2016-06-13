@@ -1,0 +1,11 @@
+In the web, the content is king.
+However absorbing content is related to the presentation, and the experience on
+consuming the content is very important
+
+Cascading Style Sheets or CSS is the technology that allow us to do that.
+
+http://csszengarden.com/
+In this website, design matters.
+Participants are allowed to change the CSS, but they cannot change the content.
+Styling tells a very different story for every website, even though
+it is the same content.

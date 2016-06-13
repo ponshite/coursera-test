@@ -1,0 +1,21 @@
+You can control some of the background properties for any element.
+
+background-color: blue;
+
+To set an image as background you can use background-image
+background-image: url("file/path.png") /* Relative to the CSS */
+
+The previous style will repeat the image.
+You can use
+background-repeat: no-repeat;
+
+to suppress repetition
+
+background-position: top right;
+
+You can combine then into one:
+background: url("bla") no-repeat center
+
+
+Summary:
+Background properties : image, color, position, etc
