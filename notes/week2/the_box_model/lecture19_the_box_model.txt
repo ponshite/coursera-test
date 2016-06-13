@@ -1,0 +1,84 @@
+Every element is considered a Box.
+
+This box contains more information than the content.
+Box:
+Margin, border, padding and content.
+
+By default, the browser may set some margin to all the elements.
+It is very common to do a CSS reset, that will wipe out the default set by
+the browser.
+
+Example:
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+The padding controls how much space we want to have between the elements.
+This is outside the box.
+
+Border controls the border of the element.
+Margin controls the space between the border and the actual content.
+
+
+You can set the width and height of every element.
+By default, when you set the width and height of the elements, it only
+targets the content! and it won't take into account the padding, and the border.
+
+This is controller by css property called box-sizing.
+In CSS3 you can set box-sizing to border-box.
+If you use this property set to border-box, the width is guaranteed to be
+whatever you specify.
+Make sure to always use box-sizing: border-box;
+
+body {
+  box-sizing: border-box;
+}  -> This doesn't work.. WTF? box-sizing is an special property and won't be
+inherited.
+
+
+* selector
+It will select every element in target a property.
+Select EVERYTHING!
+
+* {
+  box-sizing: border-box;
+}
+
+
+It can be used in all browsers.
+
+
+Cumulative margins
+
+  box1 ----- box2
+
+  If box1 margin is set to 40px and box2 margin is set 50px. The margin will be
+  90px
+
+  However if you have
+
+  box1
+  ---
+  ---
+  box2
+
+  The margins collapse and the biggest margin will win.
+
+Content overflowing:
+Content overflowing can happen when you set a limit on an element box and the
+content exceeds that limit.
+We can use the CSS property overflow to handle this.
+
+overflow: visible; -> By default
+overflow: hidden;
+overflow: auto; add scrollbars. Very bad user experience!
+
+Summary:
+The box model is an essential topic to undertand.
+Prefer box-sizing: border-box;
+The universal selector (*)
+Cummulative and collapsing margins
+Content Overflow.
