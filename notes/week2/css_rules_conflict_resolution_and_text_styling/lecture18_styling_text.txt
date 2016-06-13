@@ -1,0 +1,51 @@
+Rules for styling text
+
+whatever {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+font-family: Usually a combination of fonts, this is because a font may not
+be installed in some user computer, so we add a list of possible font-families.
+
+
+Serif vs Sans-serifs
+Sans -> Straight lines.
+
+
+color
+color: Best way to specify it is through hexadecimal values
+#rrggbb
+
+font-weigth:
+normal to bold.
+Also using numbers.
+
+font-size:
+Defaulted to 16px
+Pixels are different than points. Think of it as an absolute value. (vs references)
+
+text-transform:
+Capitalize, lowercase, etc.
+
+text-align:
+Center,right,justify,left. According to the block level element.
+
+
+Relative font sizes:
+Two units of measurement.
+
+Percent and ems.
+
+Percent.
+body {
+  font-size:120%;  /* 120% of the default value set by browsers */
+}
+
+em
+Relative to the current size
+whatever {
+  font-size:2em; /* Increase two times */
+}
+em have an accumulative effect.
+If you increase the size of the view, this value will be respected.
