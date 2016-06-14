@@ -1,0 +1,60 @@
+Relative and Absolute Element Positioning.
+
+Precision Position schemes.
+
+Static Positioning
+Normal document flow -> Default for all elements, except html.
+If you try to apply offsets for any element with static,
+it will be ignored.
+
+Relative Positioning
+Element is positioned relative to its position in normal
+document flow.
+
+Positioning CSS (offset) properties are : top, bottom,
+left, right.
+
+The element will not be taken ouy of normal document flow.
+    Even is moved, its original spot is preserved,
+    even though visualized is somewhere else.
+
+
+Example:
+p {
+ position:relative;
+ top: 50px;
+ left: 50px;
+}
+
+
+The p element will be moved 50px FROM the top and 50 px
+FROM the left.
+However, the element ghost will remain...
+Nothing really changes in the flow, other than changing
+the document flow.
+
+
+You can also use negative values to specificy how to
+move the element.
+
+
+Absolute Positioning
+
+All offsets (top, bottom, left, right) are relative
+to the position of the nearest ancestor which has
+positioning set on it, other than static.
+
+By default, html is the only element that has non-static
+positioning set on it (relative)
+
+Element is taken out of the normal document flow.
+
+Summary:
+Static positioning is default for elements except HTML.
+Relative positioning offsets the element relative to the normal document
+flow position and wont take the element out of the document flow.
+Absolute positioning is relative to closest ancestor wjich
+positioning set to non-static value (Element is taken out of document flow)
+Offsetting the relative container element offsets its contents as well
+
+
