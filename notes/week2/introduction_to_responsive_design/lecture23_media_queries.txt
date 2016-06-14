@@ -1,0 +1,59 @@
+Media Queries.
+Allow us to group styles togheter and target to devices based on some criteria, like width, height, etc.
+
+Using CSS you have the power to produce a very different layout for the same content.
+
+Media queries allows us to provide different styles for different devices.
+
+
+Basic Syntax
+
+@media (max-width: 767px) {
+    p {
+        color:blue;
+    }
+}
+
+max-width: Media feature, if it results to true, the style will be applied.
+
+
+max-width:
+min-width:
+orientation: portrait:
+screen:
+print:
+
+The most common ones are max-width and min-width
+Media queries can be combined using logical operators.
+
+AND
+Comma is equivalent to OR. :(
+
+@media (max-width: 1200px) , (max-width: 1300px) {
+
+}
+
+Common Approach
+
+p {                 /* base styles */
+    color:blue
+}
+
+@media (min-width:1200 px) {
+....
+}
+
+@media (min-width:992 px) and (max-width:1199px) {
+....
+}
+
+Make sure not to overlap widths.
+
+
+Summary:
+Basic Syntax of a media query
+@media (media feature)
+@media (media feature) logical operator (media feature)
+Remember not to overlap breakpoints
+Usually, you provide base styling, then change or add to them in each media query.
+
