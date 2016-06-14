@@ -1,0 +1,37 @@
+Responsive Design.
+
+It was born primarly to deal with the explosion of mobile devices.
+Mobile devices are the primary users of the web. Cannot ignore mobile anymore.
+
+Your website needs to be able to run on all the devices.
+
+A responsive site
+Site designed to adapt its layout to the viewing environment by using fluid, proportion-based grids, flexible images
+and CSS3 media queries.
+
+
+Content should be like Water!
+
+Site's layout adapts to the size of the device
+Content verbosity or its visual delivery may change.
+
+12 Column Grid Responsive layout.
+
+Why 12? Because of its factors.
+Factors of 12: 1,2,3,4,6,12
+
+It is very easily to split content.
+
+
+
+
+Phones by default tries to zoom out to try to fit all the content on the screen.
+We need to specify a meta tag to prevent the phone browser from zooming out.
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+Summary:
+Need for responsive design.
+12 grid column layout ( Use % to achieve fluid width)
+Viewport meta tag to turn off default mobile zooming.
