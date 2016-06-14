@@ -1,0 +1,33 @@
+One of the most popular CSS frameworks.
+
+What is Bootstrap?
+The most popular HTML, CSS and JS framework for developing responsive, mobile first projects
+on the web.
+
+Bootstrap consists mostly in CSS.
+
+Javascript jquery plugin.
+
+Mobile first. Code first with mobile device!
+
+Mobile -> Desktop
+Desktop -> Mobile
+
+Either approach works
+
+But you need to plan for mobile from the start
+
+Complaints:
+Too big, goo bloated.
+A lot of features you will probably never use
+You can write your own, but it will take a LOT longer.
+
+Download Bootstrap:
+You can choose how to use bootstrap, either a zip file, or a CDN.
+
+Bootstrap depends on jquery.
+
+
+Summary:
+Intro to bootstrap
+Mobile First

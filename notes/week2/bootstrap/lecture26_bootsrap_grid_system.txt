@@ -1,0 +1,38 @@
+Bootstrap grid system basics.
+
+
+Your bootstrap grid should always be inside a container.
+The container can be either "container" or "container-fluid"
+"container-fluid" stretches to the whole page.
+
+"container" -> predetermined width.
+
+Then the next element is the class row.
+"row" -> Creates horizontal groups of columns. Negative margin to allow row content to align.
+"column" -> col-SIZE-SPAN
+
+SIZE: Screen width range identifier (md,lg). Columns will collapse below that width.
+SPAN: How many columns (1-12) If more than 12 columns are exceed they will be rolled over to next row
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12"> Hello World</div>
+    </div>
+</div>
+
+
+Using col-xs will guarantee that the behaviour is the same.
+
+
+
+Summary:
+Structure Bootstrap expects for the grid-based layout.
+    -> Needs to include .container (or .container-fluid)
+     -> All columns must be inside a row
+
+Size identifier identifies at which breakpoint specified column spans will be ignored
+and all elements will collapse
+
+If no other rules apple, specifyin col-xs.. will keep that layout no matter what the size of the screen.
